@@ -17,7 +17,7 @@ jobs:
         env:
           POSTGRES_USER: dev
           POSTGRES_PASSWORD: rootUser
-          POSTGRES_DB: ecom
+          POSTGRES_DB: questions
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
